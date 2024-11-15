@@ -130,7 +130,7 @@
             });
         }
 
-        if (!res || Number.isNaN(res) || !Number.isFinite(res))
+        if ((res === undefined) || (res === null) || Number.isNaN(res) || !Number.isFinite(res))
         {
             return $vuert.emit({
                 icon: "circle-xmark",
@@ -244,7 +244,7 @@
             });
         }
 
-        if (!res1 || Number.isNaN(res1) || !Number.isFinite(res1))
+        if ((res1 === undefined) || (res1 === null) || Number.isNaN(res1) || !Number.isFinite(res1))
         {
             return $vuert.emit({
                 icon: "circle-xmark",
@@ -259,7 +259,7 @@
             });
         }
 
-        if (!res2 || Number.isNaN(res2) || !Number.isFinite(res2))
+        if ((res2 === undefined) || (res2 === null) || Number.isNaN(res2) || !Number.isFinite(res2))
         {
             return $vuert.emit({
                 icon: "circle-xmark",
