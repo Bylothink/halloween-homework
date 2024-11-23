@@ -191,7 +191,7 @@
         <h1>[Esercizio 2] Combattimento a turni</h1>
         <p>
             Questo esercizio pone il suo focus sull'uso delle <strong>variabili</strong>.<br />
-            Per risolvere questo esercizio, vi servirà utilizzare le variabili
+            Per risolvere questo esercizio, vi servirà utilizzare delle variabili
             per tener traccia della vita residua dei due giocatori e qualche calcolo aritmetico.
         </p>
         <hr />
@@ -203,7 +203,7 @@
             Implementa le due funzioni <code>getLife</code> e <code>dealDamage</code> per poter
             calcolare la vita residua dei due giocatori e per poter infliggere i rispettivi danni.
         </p>
-        <div class="row">
+        <div class="row form-inset-group">
             <div class="col-6 inset-form player" :class="classes1">
                 <div class="row">
                     <div class="col-2">
@@ -331,25 +331,6 @@
     {
         margin-top: var(--navigation-bar-height);
         padding-top: 1em;
-
-        .inset-form
-        {
-            background-color: variables.$inset-gray;
-            border-right: 1px solid rgba(0, 0, 0, 0.5);
-            box-shadow: inset 0px 0px 0.5em 0px rgba(0, 0, 0, 0.5);
-            padding: 1em;
-
-            &:first-child
-            {
-                border-bottom-left-radius: 0.75em;
-                border-top-left-radius: 0.75em;
-            }
-            &:last-child
-            {
-                border-bottom-right-radius: 0.75em;
-                border-top-right-radius: 0.75em;
-            }
-        }
 
         .player
         {

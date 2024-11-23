@@ -16,3 +16,31 @@ body
     font-family: variables.$font-family;
     margin-bottom: var(--hidden-footer-height);
 }
+
+
+.inset-form
+{
+    background-color: variables.$inset-gray;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.75em;
+    box-shadow: inset 0px 0px 0.5em 0px rgba(0, 0, 0, 0.5);
+    padding: 1em;
+
+    .form-inset-group > &
+    {
+        border-radius: 0px;
+
+        &:first-child
+        {
+            border-bottom-left-radius: 0.75em;
+            border-top-left-radius: 0.75em;
+        }
+        &:last-child
+        {
+            border-bottom-right-radius: 0.75em;
+            border-top-right-radius: 0.75em;
+        }
+    }
+}
+
+

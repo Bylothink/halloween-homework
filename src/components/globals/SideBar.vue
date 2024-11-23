@@ -8,6 +8,9 @@
         <RouterLink :to="{ name: 'exercise-2' }" class="btn btn-light">
             [Esercizio 2] Combattimento a turni
         </RouterLink>
+        <RouterLink :to="{ name: 'exercise-3' }" class="btn btn-light">
+            [Esercizio 3] Libro delle Risposte
+        </RouterLink>
         <!--RouterLink :to="{ name: 'home' }" class="btn btn-light">
             Esercizio 2
         </RouterLink>

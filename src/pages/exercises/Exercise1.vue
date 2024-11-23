@@ -400,15 +400,6 @@
         margin-top: var(--navigation-bar-height);
         padding-top: 1em;
 
-        .inset-form
-        {
-            background-color: variables.$inset-gray;
-            border-right: 1px solid rgba(0, 0, 0, 0.5);
-            border-radius: 0.75em;
-            box-shadow: inset 0px 0px 0.5em 0px rgba(0, 0, 0, 0.5);
-            padding: 1em;
-        }
-
         .input-group-text
         {
             background-color: transparent;

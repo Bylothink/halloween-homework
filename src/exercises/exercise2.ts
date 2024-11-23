@@ -9,7 +9,7 @@ const MaxLifePlayer2 = 37;
 const ACPlayer2 = 12;
 
 /**
- * ==== ESERCIZIO 1 ====
+ * ==== ESERCIZIO 2 ====
  * Implementare le seguenti funzioni affinché l'interfaccia di gioco funzioni correttamente.
  *
  * Da notare la presenza del parametro `player` in entrambe le funzioni.
